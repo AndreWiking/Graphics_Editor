@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Graphics_Editor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Library\;CMake Files\..\..\..\..\Library\Frameworks\;CMake Files\..\..\..\..\Library\Frameworks\SFML.framework\;CMake Files\..\..\..\..\Library\Frameworks\SFML.framework\Resources\;CMake Files\..\..\..\..\Library\Frameworks\SFML.framework\Resources\CMake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Graphics_Editor">
+				<Option output="/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Graphics_Editor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/andrewiking/CLionProjects/Graphics_Editor/PluginInclude"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Frameworks/SFML.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 Graphics_Editor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Graphics_Editor/fast">
+				<Option output="/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Graphics_Editor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/andrewiking/CLionProjects/Graphics_Editor/PluginInclude"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Frameworks/SFML.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 Graphics_Editor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrewiking/CLionProjects/Graphics_Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/App/App.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/App/App.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/App/Canvas.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/App/Canvas.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/GraphicsEditor.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/GuiManager.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/GuiManager.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/LogicManager.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/LogicManager.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/ResourcesManager.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/ResourcesManager.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Settings/GlobalSettings.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Settings/GlobalSettings.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Utils/Application.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Utils/Application.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Utils/Mouse.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Utils/Mouse.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/AddBrushSizeButton.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/AddBrushSizeButton.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/BrushPanel.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/BrushPanel.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/BrushSlider.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/BrushSlider.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Buttons/Button.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Buttons/Button.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Buttons/OpenPanelButton.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Buttons/OpenPanelButton.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ColorPicker/ColorPickerPanel.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ColorPicker/ColorPickerPanel.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ColorPicker/ColorSlider.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ColorPicker/ColorSlider.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/Curve.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/Curve.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvePoint.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvePoint.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvesField.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvesField.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvesPanel.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvesPanel.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Image.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Image.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Paint/PaintCanvas.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Paint/PaintCanvas.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Paint/PaintPanel.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Paint/PaintPanel.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/Panel.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/Panel.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/PanelHeader.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/PanelHeader.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Slider/Slider.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Slider/Slider.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Slider/SliderKnob.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Slider/SliderKnob.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Text/Text.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Text/Text.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolButton.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolButton.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolWidget.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolWidget.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Toolbar.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Toolbar.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolbarPanel.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolbarPanel.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/Effect.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/Effect.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/PluginTool.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/PluginTool.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/Tool.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/Tool.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Widget.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Widget.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/Plugin.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/Plugin.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/PluginAPI.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/PluginAPI.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/PluginManager.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/PluginManager.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/CatmullRom.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/CatmullRom.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Color.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Color.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Utils2D.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Utils2D.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Vector2.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Vector2.h">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/Source/main.cpp">
+			<Option target="Graphics_Editor"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/../../../../Library/Frameworks/SFML.framework/Resources/CMake/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Library\Frameworks\SFML.framework\Resources\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/../../../../Library/Frameworks/SFML.framework/Resources/CMake/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Library\Frameworks\SFML.framework\Resources\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/../../../../Library/Frameworks/SFML.framework/Resources/CMake/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Library\Frameworks\SFML.framework\Resources\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/../../../../Library/Frameworks/SFML.framework/Resources/CMake/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Library\Frameworks\SFML.framework\Resources\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/andrewiking/CLionProjects/Graphics_Editor/../../../../Library/Frameworks/SFML.framework/Resources/CMake/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Library\Frameworks\SFML.framework\Resources\CMake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
