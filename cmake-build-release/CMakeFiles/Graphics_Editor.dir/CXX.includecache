@@ -40,6 +40,10 @@ Canvas.h
 ../Interface/Widgets/Buttons/OpenPanelButton.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Buttons/OpenPanelButton.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/App/Canvas.cpp
+Canvas.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/App/Canvas.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/App/Canvas.h
 SFML/Graphics.hpp
 -
@@ -54,17 +58,29 @@ App/App.h
 Interface/Utils/Application.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Utils/Application.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/GuiManager.cpp
+GuiManager.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/GuiManager.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/GuiManager.h
 SFML/Window/Event.hpp
 -
 ../Widgets/Widget.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Widget.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/LogicManager.cpp
+LogicManager.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/LogicManager.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/LogicManager.h
 list
 -
 ../../Utils/Vector2.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Vector2.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/ResourcesManager.cpp
+ResourcesManager.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/ResourcesManager.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/ResourcesManager.h
 iostream
@@ -76,6 +92,10 @@ SFML/Graphics/Texture.hpp
 SFML/Graphics/Font.hpp
 -
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Settings/GlobalSettings.cpp
+GlobalSettings.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Settings/GlobalSettings.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Settings/GlobalSettings.h
 cstdio
 -
@@ -83,6 +103,10 @@ SFML/Graphics.hpp
 -
 ../../Utils/Color.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Color.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Utils/Application.cpp
+Application.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Utils/Application.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Utils/Application.h
 ../Widgets/ToolBar/Toolbar.h
@@ -96,17 +120,29 @@ SFML/Graphics.hpp
 ../Controllers/LogicManager.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/LogicManager.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Utils/Mouse.cpp
+Mouse.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Utils/Mouse.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Utils/Mouse.h
 ../../Utils/Vector2.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Vector2.h
 iostream
 -
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/AddBrushSizeButton.cpp
+AddBrushSizeButton.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/AddBrushSizeButton.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/AddBrushSizeButton.h
 ../Buttons/Button.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Buttons/Button.h
 ../Slider/Slider.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Slider/Slider.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/BrushPanel.cpp
+BrushPanel.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/BrushPanel.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/BrushPanel.h
 ../Panels/Panel.h
@@ -116,9 +152,17 @@ BrushSlider.h
 AddBrushSizeButton.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/AddBrushSizeButton.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/BrushSlider.cpp
+BrushSlider.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/BrushSlider.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Brush/BrushSlider.h
 ../Slider/Slider.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Slider/Slider.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Buttons/Button.cpp
+Button.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Buttons/Button.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Buttons/Button.h
 ../Image.h
@@ -146,15 +190,27 @@ Button.h
 ../ToolBar/ToolbarPanel.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolbarPanel.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ColorPicker/ColorPickerPanel.cpp
+ColorPickerPanel.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ColorPicker/ColorPickerPanel.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ColorPicker/ColorPickerPanel.h
 ../Panels/Panel.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/Panel.h
 ColorSlider.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ColorPicker/ColorSlider.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ColorPicker/ColorSlider.cpp
+ColorSlider.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ColorPicker/ColorSlider.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ColorPicker/ColorSlider.h
 ../Slider/Slider.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Slider/Slider.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/Curve.cpp
+Curve.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/Curve.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/Curve.h
 ../../../Utils/CatmullRom.h
@@ -164,9 +220,17 @@ CurvePoint.h
 ../../../Utils/Utils2D.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Utils2D.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvePoint.cpp
+CurvePoint.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvePoint.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvePoint.h
 ../Buttons/Button.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Buttons/Button.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvesField.cpp
+CurvesField.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvesField.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvesField.h
 Curve.h
@@ -176,15 +240,27 @@ Curve.h
 ../../Controllers/GuiManager.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/GuiManager.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvesPanel.cpp
+CurvesPanel.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvesPanel.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvesPanel.h
 ../Panels/Panel.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/Panel.h
 CurvesField.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Curves/CurvesField.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Image.cpp
+Image.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Image.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Image.h
 Widget.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Widget.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Paint/PaintCanvas.cpp
+PaintCanvas.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Paint/PaintCanvas.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Paint/PaintCanvas.h
 ../Widget.h
@@ -192,11 +268,19 @@ Widget.h
 ../../../Utils/Utils2D.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Utils2D.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Paint/PaintPanel.cpp
+PaintPanel.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Paint/PaintPanel.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Paint/PaintPanel.h
 ../Panels/Panel.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/Panel.h
 PaintCanvas.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Paint/PaintCanvas.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/Panel.cpp
+Panel.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/Panel.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/Panel.h
 ../Widget.h
@@ -206,11 +290,19 @@ PaintCanvas.h
 PanelHeader.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/PanelHeader.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/PanelHeader.cpp
+PanelHeader.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/PanelHeader.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/PanelHeader.h
 ../Image.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Image.h
 ../../Controllers/GuiManager.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/GuiManager.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Slider/Slider.cpp
+Slider.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Slider/Slider.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Slider/Slider.h
 SliderKnob.h
@@ -218,15 +310,27 @@ SliderKnob.h
 ../../Controllers/GuiManager.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/GuiManager.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Slider/SliderKnob.cpp
+SliderKnob.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Slider/SliderKnob.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Slider/SliderKnob.h
 ../Widget.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Widget.h
 ../Buttons/Button.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Buttons/Button.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Text/Text.cpp
+Text.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Text/Text.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Text/Text.h
 ../Widget.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Widget.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolButton.cpp
+ToolButton.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolButton.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolButton.h
 ../Buttons/Button.h
@@ -234,11 +338,19 @@ SliderKnob.h
 Toolbar.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Toolbar.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolWidget.cpp
+ToolWidget.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolWidget.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolWidget.h
 ../Widget.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Widget.h
 ToolButton.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolButton.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Toolbar.cpp
+Toolbar.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Toolbar.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Toolbar.h
 Tools/PluginTool.h
@@ -250,13 +362,25 @@ Tools/Effect.h
 Tools/Tool.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/Tool.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolbarPanel.cpp
+ToolbarPanel.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolbarPanel.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolbarPanel.h
 ../Panels/Panel.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Panels/Panel.h
 ToolWidget.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/ToolWidget.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/Effect.cpp
+Effect.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/Effect.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/Effect.h
+PluginTool.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/PluginTool.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/PluginTool.cpp
 PluginTool.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/PluginTool.h
 
@@ -266,9 +390,17 @@ plugin_std.h
 ../../../Settings/GlobalSettings.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Settings/GlobalSettings.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/Tool.cpp
+Tool.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/Tool.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/Tool.h
 PluginTool.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/ToolBar/Tools/PluginTool.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Widget.cpp
+Widget.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Widget.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Widgets/Widget.h
 SFML/Graphics.hpp
@@ -288,6 +420,10 @@ iostream
 list
 -
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/Plugin.cpp
+Plugin.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/Plugin.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/Plugin.h
 dlfcn.h
 -
@@ -297,6 +433,10 @@ PluginAPI.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/PluginAPI.h
 plugin_std.h
 -
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/PluginAPI.cpp
+PluginAPI.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/PluginAPI.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/PluginAPI.h
 SFML/Graphics.hpp
@@ -310,15 +450,27 @@ plugin_std.h
 ../Interface/Settings/GlobalSettings.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Settings/GlobalSettings.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/PluginManager.cpp
+PluginManager.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/PluginManager.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/PluginManager.h
 Plugin.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Plugins/Plugin.h
 ../Interface/Controllers/ResourcesManager.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Interface/Controllers/ResourcesManager.h
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/CatmullRom.cpp
+CatmullRom.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/CatmullRom.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/CatmullRom.h
 Vector2.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Vector2.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Color.cpp
+Color.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Color.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Color.h
 cstdint
@@ -334,6 +486,10 @@ SFML/Graphics/Color.hpp
 plugin_std.h
 -
 
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Utils2D.cpp
+Utils2D.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Utils2D.h
+
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Utils2D.h
 SFML/Graphics.hpp
 -
@@ -341,6 +497,10 @@ Vector2.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Vector2.h
 Color.h
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Color.h
+
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Vector2.cpp
+Vector2.h
+/Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Vector2.h
 
 /Users/andrewiking/CLionProjects/Graphics_Editor/Source/Utils/Vector2.h
 cmath
